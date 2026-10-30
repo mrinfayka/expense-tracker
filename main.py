@@ -22,3 +22,5 @@ for name, amount in expenses:
 total = sum(amount for name, amount in expenses)
 
 print(f"\nВсего потрачено: {total:.2f}")
+print("\nСпасибо за использование трекера расходов!")
+print("Программа создана на Python.")
